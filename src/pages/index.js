@@ -4,6 +4,14 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 import { StaticImage } from 'gatsby-plugin-image'
+import { Link , useStaticQuery, graphql} from 'gatsby'
+import {  
+  container,
+  heading,
+  navLinkss,
+  navLinkItem,
+  navLinkText,
+  siteTitle } from '../components/layout.module.css'
 // Define  component
 const IndexPage = () => {
   return (
@@ -11,6 +19,7 @@ const IndexPage = () => {
         <h3>Starting from scratch</h3>
         <StaticImage alt="home"
           src="../images/istockphoto-1303501748-170667a.jpg"/>
+      
       </Layout>
     
   )
