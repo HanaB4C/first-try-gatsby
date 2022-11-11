@@ -1,19 +1,18 @@
 
 //  Import React
 import * as React from 'react'
-import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
+import { StaticImage } from 'gatsby-plugin-image'
 // Define  component
 const IndexPage = () => {
   return (
-    <main>
-    
-      {/*<h1>Welcome to my first try for a Gatsby site!</h1>
-      <Link to="/about"> About Me</Link>*/}
       <Layout pageTitle="Home Page">
-      <h3>Starting from scratch.</h3>
+        <h3>Starting from scratch</h3>
+        <StaticImage alt="home"
+          src="../images/istockphoto-1303501748-170667a.jpg"/>
       </Layout>
-    </main>
+    
   )
 }
 
@@ -21,5 +20,5 @@ const IndexPage = () => {
 export default IndexPage
 
 // Define page title
-export const Head = () => <title>Home Page</title>
+export const Head = () => <Seo title= "Home Page" />
 

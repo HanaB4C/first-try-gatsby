@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(84, 23, 239);
+    color: rgb(6, 64, 13);
     text-align: center;
 }
 .center {
@@ -10,11 +10,11 @@ table {
     text-align: center;
 }
 td {
-    border: 1px solid rgb(120, 85, 209);
+    border: 1px solid rgb(8, 48, 16);
 }
 
 thead,
 tfoot {
-    background-color: rgb(183, 173, 246);
+    background-color: rgb(101, 166, 138);
     color: #fff;
 }
